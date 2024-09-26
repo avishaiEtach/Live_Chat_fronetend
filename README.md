@@ -4,10 +4,9 @@ A fully functional live chat application built with the MERN stack (MongoDB, Exp
 
 Check here: [https://live-chat.onrender.com/](https://live-chat-4ydd.onrender.com/)
 
-<video width="320" height="240" controls >
-  <source src="https://res.cloudinary.com/maindevcloud/video/upload/v1727354857/ted2mdo1pui8gvqygvor.mp4" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+backend repository : [Live Chat Backend](https://github.com/avishaiEtach/Live_Chat_backend)
+
+https://github.com/user-attachments/assets/98a8b5e6-fe6d-4582-97b2-90ac4e561741
 
 ## Demi-Users
 
