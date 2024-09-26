@@ -10,10 +10,8 @@ https://github.com/user-attachments/assets/98a8b5e6-fe6d-4582-97b2-90ac4e561741
 
 You can use the demi-admin user or to signup to the app
 
-
-
-
 **demi-admin user**:
+
         username: admin@gmail.com,
         password: 123456789,
 
