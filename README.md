@@ -4,6 +4,8 @@ A fully functional live chat application built with the MERN stack (MongoDB, Exp
 
 Check here: [https://live-chat.onrender.com/](https://live-chat-4ydd.onrender.com/)
 
+backend repository : [Live Chat Backend](https://github.com/avishaiEtach/Live_Chat_backend)
+
 https://github.com/user-attachments/assets/98a8b5e6-fe6d-4582-97b2-90ac4e561741
 
 ## Demi-Users
