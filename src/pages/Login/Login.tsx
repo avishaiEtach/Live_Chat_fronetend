@@ -50,6 +50,16 @@ export const Login = () => {
             Sing Up
           </Link>
         </div>
+        <div className="login-github-link">
+          <span>You can use the demo-user to check the</span>
+          <Link
+            className="login-semi-text-link"
+            to={"https://github.com/avishaiEtach/Live_Chat_fronetend"}
+            target="_blank"
+          >
+            GitHub repository
+          </Link>
+        </div>
       </div>
     </div>
   );

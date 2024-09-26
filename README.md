@@ -1,6 +1,38 @@
-# Getting Started with Create React App
+# MERN Live Chat Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully functional live chat application built with the MERN stack (MongoDB, Express, React, Node.js) and Socket.io. This application allows users to sign up, log in, and engage in real-time conversations. The app supports multiple chat conversations, displays online users, and provides seamless live chat functionality.
+
+Check here: [https://live-chat.onrender.com/](https://live-chat-4ydd.onrender.com/)
+
+<video width="320" height="240" controls >
+  <source src="https://res.cloudinary.com/maindevcloud/video/upload/v1727354857/ted2mdo1pui8gvqygvor.mp4" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
+## Demi-Users
+
+You can use the demi-admin user or to signup to the app
+
+**demi-admin user**:
+
+        username: admin@gmail.com,
+        password: 123456789,
+
+## Features
+
+- **User Authentication**: Sign up and log in functionality to manage users.
+- **Conversations**: Users can select conversations from a list and engage in messaging.
+- **Real-time Messaging**: Messages are updated in real-time with the help of Socket.io.
+- **Online Status**: Shows online users in real-time.
+- **Responsive Design**: The app is styled using SCSS for a clean and modern interface.
+
+## Tech Stack
+
+- **Frontend**: React, SCSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Real-Time Communication**: Socket.io
+- **Authentication**: JSON Web Token (JWT)
 
 ## Available Scripts
 
