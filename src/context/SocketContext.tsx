@@ -28,7 +28,7 @@ export const SocketContextProvider = ({ children }: any) => {
   useEffect(() => {
     if (authUser) {
       const socket = io(
-        process.env.NODE_ENV === "production" ? "/api" : "//localhost:8080",
+        process.env.NODE_ENV === "production" ? "" : "//localhost:8080",
         {
           query: {
             userId: authUser._id,
