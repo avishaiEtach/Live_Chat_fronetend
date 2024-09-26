@@ -1,0 +1,23 @@
+@import "../../assets//styles/setup/setup";
+
+.side-bar-container {
+  border-right: 1px solid $clr1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: $mobile-breakpoint) {
+    order: 1;
+    border-right: none;
+  }
+}
+
+.side-bar-logout-button {
+  margin-top: auto;
+}
+
+.side-bar-logout-button-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: $clr6;
+  cursor: pointer;
+}

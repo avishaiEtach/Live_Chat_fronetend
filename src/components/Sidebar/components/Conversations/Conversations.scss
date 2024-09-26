@@ -1,0 +1,10 @@
+@import "../../../../assets//styles/setup/setup";
+
+.conversations-container {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  gap: 10px;
+}

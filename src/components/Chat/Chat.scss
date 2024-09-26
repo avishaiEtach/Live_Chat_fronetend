@@ -1,0 +1,39 @@
+@import "../../assets//styles/setup/setup";
+
+.chat-main-container {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: $mobile-breakpoint) {
+    border-bottom: 1px solid $clr1;
+  }
+  @media (min-width: 768px) {
+    min-width: 450px;
+  }
+}
+
+.chat-header-container {
+  background-color: $clr1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  span {
+    &:first-of-type {
+      font-size: 0.875rem;
+      font-weight: 400;
+      color: $clr18;
+    }
+    &:last-of-type {
+      color: $clr19;
+      font-weight: bold;
+    }
+  }
+}
+
+.chat-messages-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+  overflow: auto;
+}

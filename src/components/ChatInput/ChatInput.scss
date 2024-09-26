@@ -1,0 +1,37 @@
+@import "../../assets//styles/setup/setup";
+
+.chat-input-main-container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.chat-input-container {
+  width: 100%;
+  position: relative;
+}
+
+.chat-input-input {
+  border: 1px solid $clr16;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  display: block;
+  width: 100%;
+  padding: 0.625rem;
+  background-color: $clr17;
+  color: $clr8;
+}
+
+.chat-input-button {
+  &.MuiButtonBase-root {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 0.75rem;
+    color: $clr8;
+  }
+}

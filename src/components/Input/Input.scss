@@ -1,0 +1,8 @@
+@import "../../assets//styles/setup/setup";
+
+.input {
+  &.MuiTextField-root {
+    min-width: 260px;
+    background-color: $clr8;
+  }
+}

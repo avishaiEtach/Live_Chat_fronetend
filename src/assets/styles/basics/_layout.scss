@@ -1,0 +1,12 @@
+.app-container {
+  // display: grid;
+  // grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  // .center {
+  //   margin: 0 auto;
+  // }
+}

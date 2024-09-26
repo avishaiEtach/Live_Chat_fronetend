@@ -1,0 +1,17 @@
+@import "../../assets/styles/setup/setup";
+
+.home-page-container {
+  display: flex;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: $clr3;
+  @media screen and (max-width: $mobile-breakpoint) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 640px) {
+    height: 450px;
+  }
+  @media screen and (min-width: 768px) {
+    height: 550px;
+  }
+}
