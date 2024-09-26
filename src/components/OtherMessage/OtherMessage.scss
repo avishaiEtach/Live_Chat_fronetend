@@ -10,6 +10,8 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  max-width: 300px;
+  line-height: 1.2;
 }
 
 .conversation-icon {
